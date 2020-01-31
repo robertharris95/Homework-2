@@ -1,5 +1,8 @@
 body{
- background-image: url(https://i.pinimg.com/originals/72/a1/84/72a184aa7846cad0d5a82cf55dc3f406.jpg)
+ background-image: url(https://i.pinimg.com/originals/72/a1/84/72a184aa7846cad0d5a82cf55dc3f406.jpg);
+ /* min-width: 1200px; */
+ padding: 0px;
+ 
 }
 
 #menu{
@@ -16,24 +19,21 @@ body{
 
 .resize {
     width: 50%;
-    height: 50%;
+    height: auto;
     padding: 10px;
     border-color: gray;
     border-width: 100%; 
     margin: 5px;
     float: left;
-
 }
+
 .bio{
    background-image: url(https://i.pinimg.com/originals/ff/22/d4/ff22d451a7862a8773196342d206e61e.jpg);
    margin-left: 10%;
    margin-right: 10%;
    font-family: 'Oswald', sans-serif;
-   
-   
-   
-
 }
+
 #bio{
     margin: 30px;
     margin-bottom:50px;
@@ -43,14 +43,24 @@ body{
     overflow: auto;
   }
 
-  h2{
+h2{
       font-size: 60px;
       margin-bottom: -3%;
       text-align: center;
   }
 
-  .banner{
+.banner{
       padding-top: 5%;
-      width: 100%
+      width: 100%;
+      padding-bottom: 1%;
   }
 
+#blog{
+      color: rgba(0, 0, 0, 0.5);
+      
+  }
+
+  .navbar{
+text-align: right;
+float: right;
+  }
