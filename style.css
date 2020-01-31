@@ -1,3 +1,40 @@
-#right{
-    justify-content: right;
+#menu{
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+
 }
+
+.resize {
+    width: 350px;
+    height: auto;
+}
+
+.resize {
+    width: 250px;
+    height: auto;
+    padding: 10px;
+    float: left;
+    border-color: gray; 
+    margin: 5px;
+    float: left;
+
+}
+#bio{
+    float: right;
+    position: absolute;
+
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  picture{
+      background-color:gainsboro;
+      float: left;
+  }
+  #top{
+      position: relative;
+  }
