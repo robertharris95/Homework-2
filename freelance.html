@@ -13,6 +13,58 @@
     <title>R Harris Web Design</title>
     <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="logo_igg_icon.ico" type="image/x-icon">
+     <!-- Menu on hover -->
+     <style type="text/css">
+
+      @media screen and (min-width: 768px){
+    
+      .dropdown:hover .dropdown-menu, .btn-group:hover .dropdown-menu{
+    
+            display: block;
+    
+        }
+    
+        .dropdown-menu{
+    
+            margin-top: 0;
+    
+        }
+    
+        .dropdown-toggle{
+    
+            margin-bottom: 2px;
+    
+        }
+    
+        .navbar .dropdown-toggle, .nav-tabs .dropdown-toggle{
+    
+            margin-bottom: 0;
+    
+        }
+    
+    }
+    
+    </style>
+    <script type="text/javascript">
+  
+
+      $(document).ready(function(){
+      
+          $(".dropdown, .btn-group").hover(function(){
+      
+              var dropdownMenu = $(this).children(".dropdown-menu");
+      
+              if(dropdownMenu.is(":visible")){
+      
+                  dropdownMenu.parent().toggleClass("open");
+      
+              }
+      
+          });
+      
+      });     
+      
+      </script>
 </head>
 
 <header>
@@ -56,7 +108,7 @@
                     <a href="index.html">
                             <img src="logo.png" alt="My logo" class="img-fluid">
                          </a>
-                         
+
                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
        
                          <span class="navbar-toggler-icon"></span>
@@ -95,3 +147,6 @@
                      </nav>
        
                    </header>
+
+
+                   
