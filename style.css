@@ -90,6 +90,24 @@ float: right;
     font-size: 20px
   }
 
+  /* Blog page in progress */
+  #blogplaceholder{
+    font-size: 100px;
+    text-align: center
+  }
+
+  /* to separate the cards */
+  .card{
+    margin: 3%;
+  }
+
+  /* For the project headings */
+  .Project-headings{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 60px;
+  }
+
 
   /* MEDIA QUERIES FOR ADAPTIVE FIXES */
   @media screen and (max-width: 768px) {
